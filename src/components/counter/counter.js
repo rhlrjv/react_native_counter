@@ -16,6 +16,7 @@ export default class Counter extends Component {
   }
 
   _increment() {
+    console.log(this.state);
     this.setState({ count: this.state.count + 1 });
   }
 

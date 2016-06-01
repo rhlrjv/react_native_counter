@@ -15,7 +15,7 @@ export default class Button extends Component {
           style={styles.button}
           onPress={this.props.onClick}>
 
-          <Text>{this.props.label}</Text>
+          <Text>{this.props.label} from android!</Text>
 
         </TouchableHighlight>
       </View>
